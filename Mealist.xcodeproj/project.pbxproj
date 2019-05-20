@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07200BBFC02AB544BB3A5537 /* Pods_Mealist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CF5F9087B5F039C369E7D7 /* Pods_Mealist.framework */; };
+		AC04D9122292FBC0006A11EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC04D9112292FBC0006A11EF /* MapKit.framework */; };
 		AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2C2292EFAC00292682 /* AppDelegate.swift */; };
 		AC51EA2F2292EFAC00292682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2E2292EFAC00292682 /* ViewController.swift */; };
 		AC51EA322292EFAC00292682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA302292EFAC00292682 /* Main.storyboard */; };
@@ -31,6 +32,8 @@
 		2614EDB1E64546D292B3DA34 /* Pods_MealistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DD6EC033D0FC867DD1295E /* Pods-MealistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MealistTests/Pods-MealistTests.release.xcconfig"; sourceTree = "<group>"; };
 		48E9BCE34406085E8A6AAA77 /* Pods-MealistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealistTests/Pods-MealistTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC04D9102292FB7A006A11EF /* Mealist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mealist.entitlements; sourceTree = "<group>"; };
+		AC04D9112292FBC0006A11EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AC51EA292292EFAC00292682 /* Mealist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC51EA2C2292EFAC00292682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC51EA2E2292EFAC00292682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC04D9122292FBC0006A11EF /* MapKit.framework in Frameworks */,
 				07200BBFC02AB544BB3A5537 /* Pods_Mealist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +73,7 @@
 		13AFFDC0B16F0478542B91B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AC04D9112292FBC0006A11EF /* MapKit.framework */,
 				B9CF5F9087B5F039C369E7D7 /* Pods_Mealist.framework */,
 				2614EDB1E64546D292B3DA34 /* Pods_MealistTests.framework */,
 			);
@@ -109,6 +114,7 @@
 		AC51EA2B2292EFAC00292682 /* Mealist */ = {
 			isa = PBXGroup;
 			children = (
+				AC04D9102292FB7A006A11EF /* Mealist.entitlements */,
 				AC51EA2C2292EFAC00292682 /* AppDelegate.swift */,
 				AC51EA2E2292EFAC00292682 /* ViewController.swift */,
 				AC51EA302292EFAC00292682 /* Main.storyboard */,
@@ -181,6 +187,17 @@
 				TargetAttributes = {
 					AC51EA282292EFAC00292682 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					AC51EA3C2292EFB800292682 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -477,6 +494,7 @@
 			baseConfigurationReference = DC8FB2FF12E55C4B26C7308B /* Pods-Mealist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mealist/Mealist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NKATU7J47;
 				INFOPLIST_FILE = Mealist/Info.plist;
@@ -497,6 +515,7 @@
 			baseConfigurationReference = FC0EB76C184DF4E82899E9DF /* Pods-Mealist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mealist/Mealist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3NKATU7J47;
 				INFOPLIST_FILE = Mealist/Info.plist;
