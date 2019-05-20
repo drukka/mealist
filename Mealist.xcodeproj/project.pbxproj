@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2C2292EFAC00292682 /* AppDelegate.swift */; };
+		AC51EA2F2292EFAC00292682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2E2292EFAC00292682 /* ViewController.swift */; };
+		AC51EA322292EFAC00292682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA302292EFAC00292682 /* Main.storyboard */; };
+		AC51EA342292EFB800292682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA332292EFB800292682 /* Assets.xcassets */; };
+		AC51EA372292EFB800292682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA352292EFB800292682 /* LaunchScreen.storyboard */; };
+		AC51EA422292EFB800292682 /* MealistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA412292EFB800292682 /* MealistTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC51EA3E2292EFB800292682 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC51EA212292EFAC00292682 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC51EA282292EFAC00292682;
+			remoteInfo = Mealist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC51EA292292EFAC00292682 /* Mealist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC51EA2C2292EFAC00292682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC51EA2E2292EFAC00292682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC51EA312292EFAC00292682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC51EA332292EFB800292682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC51EA362292EFB800292682 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC51EA382292EFB800292682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC51EA3D2292EFB800292682 /* MealistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC51EA412292EFB800292682 /* MealistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealistTests.swift; sourceTree = "<group>"; };
+		AC51EA432292EFB800292682 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC51EA262292EFAC00292682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC51EA3A2292EFB800292682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC51EA202292EFAC00292682 = {
+			isa = PBXGroup;
+			children = (
+				AC51EA2B2292EFAC00292682 /* Mealist */,
+				AC51EA402292EFB800292682 /* MealistTests */,
+				AC51EA2A2292EFAC00292682 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC51EA2A2292EFAC00292682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC51EA292292EFAC00292682 /* Mealist.app */,
+				AC51EA3D2292EFB800292682 /* MealistTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC51EA2B2292EFAC00292682 /* Mealist */ = {
+			isa = PBXGroup;
+			children = (
+				AC51EA2C2292EFAC00292682 /* AppDelegate.swift */,
+				AC51EA2E2292EFAC00292682 /* ViewController.swift */,
+				AC51EA302292EFAC00292682 /* Main.storyboard */,
+				AC51EA332292EFB800292682 /* Assets.xcassets */,
+				AC51EA352292EFB800292682 /* LaunchScreen.storyboard */,
+				AC51EA382292EFB800292682 /* Info.plist */,
+			);
+			path = Mealist;
+			sourceTree = "<group>";
+		};
+		AC51EA402292EFB800292682 /* MealistTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC51EA412292EFB800292682 /* MealistTests.swift */,
+				AC51EA432292EFB800292682 /* Info.plist */,
+			);
+			path = MealistTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC51EA282292EFAC00292682 /* Mealist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC51EA462292EFB800292682 /* Build configuration list for PBXNativeTarget "Mealist" */;
+			buildPhases = (
+				AC51EA252292EFAC00292682 /* Sources */,
+				AC51EA262292EFAC00292682 /* Frameworks */,
+				AC51EA272292EFAC00292682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mealist;
+			productName = Mealist;
+			productReference = AC51EA292292EFAC00292682 /* Mealist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC51EA3C2292EFB800292682 /* MealistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC51EA492292EFB800292682 /* Build configuration list for PBXNativeTarget "MealistTests" */;
+			buildPhases = (
+				AC51EA392292EFB800292682 /* Sources */,
+				AC51EA3A2292EFB800292682 /* Frameworks */,
+				AC51EA3B2292EFB800292682 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC51EA3F2292EFB800292682 /* PBXTargetDependency */,
+			);
+			name = MealistTests;
+			productName = MealistTests;
+			productReference = AC51EA3D2292EFB800292682 /* MealistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC51EA212292EFAC00292682 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Levente Dimény";
+				TargetAttributes = {
+					AC51EA282292EFAC00292682 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					AC51EA3C2292EFB800292682 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = AC51EA282292EFAC00292682;
+					};
+				};
+			};
+			buildConfigurationList = AC51EA242292EFAC00292682 /* Build configuration list for PBXProject "Mealist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC51EA202292EFAC00292682;
+			productRefGroup = AC51EA2A2292EFAC00292682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC51EA282292EFAC00292682 /* Mealist */,
+				AC51EA3C2292EFB800292682 /* MealistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC51EA272292EFAC00292682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC51EA372292EFB800292682 /* LaunchScreen.storyboard in Resources */,
+				AC51EA342292EFB800292682 /* Assets.xcassets in Resources */,
+				AC51EA322292EFAC00292682 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC51EA3B2292EFB800292682 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC51EA252292EFAC00292682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC51EA2F2292EFAC00292682 /* ViewController.swift in Sources */,
+				AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC51EA392292EFB800292682 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC51EA422292EFB800292682 /* MealistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC51EA3F2292EFB800292682 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC51EA282292EFAC00292682 /* Mealist */;
+			targetProxy = AC51EA3E2292EFB800292682 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC51EA302292EFAC00292682 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC51EA312292EFAC00292682 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC51EA352292EFB800292682 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC51EA362292EFB800292682 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC51EA442292EFB800292682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC51EA452292EFB800292682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC51EA472292EFB800292682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NKATU7J47;
+				INFOPLIST_FILE = Mealist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drukkadigitals.Mealist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC51EA482292EFB800292682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NKATU7J47;
+				INFOPLIST_FILE = Mealist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drukkadigitals.Mealist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC51EA4A2292EFB800292682 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NKATU7J47;
+				INFOPLIST_FILE = MealistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drukkadigitals.MealistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mealist.app/Mealist";
+			};
+			name = Debug;
+		};
+		AC51EA4B2292EFB800292682 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NKATU7J47;
+				INFOPLIST_FILE = MealistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drukkadigitals.MealistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mealist.app/Mealist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC51EA242292EFAC00292682 /* Build configuration list for PBXProject "Mealist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC51EA442292EFB800292682 /* Debug */,
+				AC51EA452292EFB800292682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC51EA462292EFB800292682 /* Build configuration list for PBXNativeTarget "Mealist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC51EA472292EFB800292682 /* Debug */,
+				AC51EA482292EFB800292682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC51EA492292EFB800292682 /* Build configuration list for PBXNativeTarget "MealistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC51EA4A2292EFB800292682 /* Debug */,
+				AC51EA4B2292EFB800292682 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC51EA212292EFAC00292682 /* Project object */;
+}
