@@ -39,6 +39,8 @@
 		7075CE1D229444BC002B3DD8 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE1B229444BC002B3DD8 /* Networking.swift */; };
 		7075CE1F2294458D002B3DD8 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE1E2294458D002B3DD8 /* AuthenticationResponse.swift */; };
 		7075CE202294458D002B3DD8 /* AuthenticationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE1E2294458D002B3DD8 /* AuthenticationResponse.swift */; };
+		7075CE2222944602002B3DD8 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE2122944602002B3DD8 /* AppDependencies.swift */; };
+		7075CE2322944602002B3DD8 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE2122944602002B3DD8 /* AppDependencies.swift */; };
 		AC04D9122292FBC0006A11EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC04D9112292FBC0006A11EF /* MapKit.framework */; };
 		AC04D9142293DE28006A11EF /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC04D9132293DE27006A11EF /* Pacifico.ttf */; };
 		AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D91A2293F734006A11EF /* SplashViewController.swift */; };
@@ -77,6 +79,7 @@
 		7075CE162294448E002B3DD8 /* FakeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeAPIClient.swift; sourceTree = "<group>"; };
 		7075CE1B229444BC002B3DD8 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		7075CE1E2294458D002B3DD8 /* AuthenticationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationResponse.swift; sourceTree = "<group>"; };
+		7075CE2122944602002B3DD8 /* AppDependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 		AC04D9102292FB7A006A11EF /* Mealist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mealist.entitlements; sourceTree = "<group>"; };
 		AC04D9112292FBC0006A11EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AC04D9132293DE27006A11EF /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
@@ -164,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				7075CE1A229444B1002B3DD8 /* Protocols */,
+				7075CE2122944602002B3DD8 /* AppDependencies.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -563,6 +567,7 @@
 				7075CE0222944061002B3DD8 /* DeliveryDetails.swift in Sources */,
 				7075CE0B229441EE002B3DD8 /* Review.swift in Sources */,
 				7075CE202294458D002B3DD8 /* AuthenticationResponse.swift in Sources */,
+				7075CE2322944602002B3DD8 /* AppDependencies.swift in Sources */,
 				7075CE11229443BA002B3DD8 /* OrderItem.swift in Sources */,
 				7075CE1D229444BC002B3DD8 /* Networking.swift in Sources */,
 				7075CDE222943ED3002B3DD8 /* SplashViewController.swift in Sources */,
@@ -584,6 +589,7 @@
 				7075CE0122944061002B3DD8 /* DeliveryDetails.swift in Sources */,
 				7075CE0A229441EE002B3DD8 /* Review.swift in Sources */,
 				7075CE1F2294458D002B3DD8 /* AuthenticationResponse.swift in Sources */,
+				7075CE2222944602002B3DD8 /* AppDependencies.swift in Sources */,
 				7075CE10229443BA002B3DD8 /* OrderItem.swift in Sources */,
 				7075CE1C229444BC002B3DD8 /* Networking.swift in Sources */,
 				AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */,
