@@ -14,8 +14,6 @@ class RoundedButton: UIButton {
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-
-        frame.size = CGSize(width: 500, height: 80)
         layer.cornerRadius = frame.height / 2
         layer.masksToBounds = true
     }
