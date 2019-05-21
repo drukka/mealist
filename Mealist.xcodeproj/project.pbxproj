@@ -21,6 +21,10 @@
 		7075CDFF22943FFD002B3DD8 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CDFD22943FFD002B3DD8 /* UserData.swift */; };
 		7075CE0122944061002B3DD8 /* DeliveryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE0022944061002B3DD8 /* DeliveryDetails.swift */; };
 		7075CE0222944061002B3DD8 /* DeliveryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE0022944061002B3DD8 /* DeliveryDetails.swift */; };
+		7075CE0422944107002B3DD8 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE0322944107002B3DD8 /* Restaurant.swift */; };
+		7075CE0522944107002B3DD8 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE0322944107002B3DD8 /* Restaurant.swift */; };
+		7075CE0722944184002B3DD8 /* RestaurantCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE0622944184002B3DD8 /* RestaurantCategory.swift */; };
+		7075CE0822944184002B3DD8 /* RestaurantCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE0622944184002B3DD8 /* RestaurantCategory.swift */; };
 		AC04D9122292FBC0006A11EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC04D9112292FBC0006A11EF /* MapKit.framework */; };
 		AC04D9142293DE28006A11EF /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC04D9132293DE27006A11EF /* Pacifico.ttf */; };
 		AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D91A2293F734006A11EF /* SplashViewController.swift */; };
@@ -50,6 +54,8 @@
 		7075CDF122943ED3002B3DD8 /* Mealist-mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mealist-mock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7075CDFD22943FFD002B3DD8 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		7075CE0022944061002B3DD8 /* DeliveryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDetails.swift; sourceTree = "<group>"; };
+		7075CE0322944107002B3DD8 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		7075CE0622944184002B3DD8 /* RestaurantCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCategory.swift; sourceTree = "<group>"; };
 		AC04D9102292FB7A006A11EF /* Mealist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mealist.entitlements; sourceTree = "<group>"; };
 		AC04D9112292FBC0006A11EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AC04D9132293DE27006A11EF /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
@@ -114,6 +120,8 @@
 			children = (
 				7075CDFD22943FFD002B3DD8 /* UserData.swift */,
 				7075CE0022944061002B3DD8 /* DeliveryDetails.swift */,
+				7075CE0322944107002B3DD8 /* Restaurant.swift */,
+				7075CE0622944184002B3DD8 /* RestaurantCategory.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -502,6 +510,8 @@
 			files = (
 				7075CE0222944061002B3DD8 /* DeliveryDetails.swift in Sources */,
 				7075CDE222943ED3002B3DD8 /* SplashViewController.swift in Sources */,
+				7075CE0822944184002B3DD8 /* RestaurantCategory.swift in Sources */,
+				7075CE0522944107002B3DD8 /* Restaurant.swift in Sources */,
 				7075CDE322943ED3002B3DD8 /* AppDelegate.swift in Sources */,
 				7075CDFF22943FFD002B3DD8 /* UserData.swift in Sources */,
 				7075CDE422943ED3002B3DD8 /* RoundedButton.swift in Sources */,
@@ -514,6 +524,8 @@
 			files = (
 				7075CE0122944061002B3DD8 /* DeliveryDetails.swift in Sources */,
 				AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */,
+				7075CE0722944184002B3DD8 /* RestaurantCategory.swift in Sources */,
+				7075CE0422944107002B3DD8 /* Restaurant.swift in Sources */,
 				AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */,
 				7075CDFE22943FFD002B3DD8 /* UserData.swift in Sources */,
 				AC04D9202293F904006A11EF /* RoundedButton.swift in Sources */,
