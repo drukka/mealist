@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		07200BBFC02AB544BB3A5537 /* Pods_Mealist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CF5F9087B5F039C369E7D7 /* Pods_Mealist.framework */; };
 		AC04D9122292FBC0006A11EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC04D9112292FBC0006A11EF /* MapKit.framework */; };
+		AC04D9142293DE28006A11EF /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC04D9132293DE27006A11EF /* Pacifico.ttf */; };
 		AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2C2292EFAC00292682 /* AppDelegate.swift */; };
 		AC51EA2F2292EFAC00292682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2E2292EFAC00292682 /* ViewController.swift */; };
 		AC51EA322292EFAC00292682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA302292EFAC00292682 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 		48E9BCE34406085E8A6AAA77 /* Pods-MealistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealistTests/Pods-MealistTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC04D9102292FB7A006A11EF /* Mealist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mealist.entitlements; sourceTree = "<group>"; };
 		AC04D9112292FBC0006A11EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AC04D9132293DE27006A11EF /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
 		AC51EA292292EFAC00292682 /* Mealist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC51EA2C2292EFAC00292682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC51EA2E2292EFAC00292682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AC04D9152293DE32006A11EF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AC04D9132293DE27006A11EF /* Pacifico.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		AC51EA202292EFAC00292682 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +128,7 @@
 				AC51EA2C2292EFAC00292682 /* AppDelegate.swift */,
 				AC51EA2E2292EFAC00292682 /* ViewController.swift */,
 				AC51EA302292EFAC00292682 /* Main.storyboard */,
+				AC04D9152293DE32006A11EF /* Fonts */,
 				AC51EA332292EFB800292682 /* Assets.xcassets */,
 				AC51EA352292EFB800292682 /* LaunchScreen.storyboard */,
 				AC51EA382292EFB800292682 /* Info.plist */,
@@ -231,6 +242,7 @@
 			files = (
 				AC51EA372292EFB800292682 /* LaunchScreen.storyboard in Resources */,
 				AC51EA342292EFB800292682 /* Assets.xcassets in Resources */,
+				AC04D9142293DE28006A11EF /* Pacifico.ttf in Resources */,
 				AC51EA322292EFAC00292682 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
