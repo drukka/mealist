@@ -1,5 +1,5 @@
 //
-//  UserData.swift
+//  Dish.swift
 //  Mealist
 //
 //  Created by Németh Barna on 2019. 05. 21..
@@ -8,14 +8,13 @@
 
 import Foundation
 
-struct UserData: Codable {
+struct Dish: Codable {
     
     // MARK: - Properties
     
     let id: Int
-    let email: String
-    let firstname: String?
-    let lastname: String?
-    let profilePicture: String?
-    let deliveryDetails: DeliveryDetails?
+    let name: String
+    let description: String
+    let image: String?
+    let price: String
 }
