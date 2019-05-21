@@ -29,6 +29,8 @@
 		7075CE0B229441EE002B3DD8 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE09229441EE002B3DD8 /* Review.swift */; };
 		7075CE0D22944338002B3DD8 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE0C22944338002B3DD8 /* Dish.swift */; };
 		7075CE0E22944338002B3DD8 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE0C22944338002B3DD8 /* Dish.swift */; };
+		7075CE10229443BA002B3DD8 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE0F229443BA002B3DD8 /* OrderItem.swift */; };
+		7075CE11229443BA002B3DD8 /* OrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7075CE0F229443BA002B3DD8 /* OrderItem.swift */; };
 		AC04D9122292FBC0006A11EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC04D9112292FBC0006A11EF /* MapKit.framework */; };
 		AC04D9142293DE28006A11EF /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC04D9132293DE27006A11EF /* Pacifico.ttf */; };
 		AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D91A2293F734006A11EF /* SplashViewController.swift */; };
@@ -62,6 +64,7 @@
 		7075CE0622944184002B3DD8 /* RestaurantCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCategory.swift; sourceTree = "<group>"; };
 		7075CE09229441EE002B3DD8 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		7075CE0C22944338002B3DD8 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		7075CE0F229443BA002B3DD8 /* OrderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderItem.swift; sourceTree = "<group>"; };
 		AC04D9102292FB7A006A11EF /* Mealist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mealist.entitlements; sourceTree = "<group>"; };
 		AC04D9112292FBC0006A11EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AC04D9132293DE27006A11EF /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
@@ -130,6 +133,7 @@
 				7075CE0622944184002B3DD8 /* RestaurantCategory.swift */,
 				7075CE09229441EE002B3DD8 /* Review.swift */,
 				7075CE0C22944338002B3DD8 /* Dish.swift */,
+				7075CE0F229443BA002B3DD8 /* OrderItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -518,6 +522,7 @@
 			files = (
 				7075CE0222944061002B3DD8 /* DeliveryDetails.swift in Sources */,
 				7075CE0B229441EE002B3DD8 /* Review.swift in Sources */,
+				7075CE11229443BA002B3DD8 /* OrderItem.swift in Sources */,
 				7075CDE222943ED3002B3DD8 /* SplashViewController.swift in Sources */,
 				7075CE0822944184002B3DD8 /* RestaurantCategory.swift in Sources */,
 				7075CE0522944107002B3DD8 /* Restaurant.swift in Sources */,
@@ -534,6 +539,7 @@
 			files = (
 				7075CE0122944061002B3DD8 /* DeliveryDetails.swift in Sources */,
 				7075CE0A229441EE002B3DD8 /* Review.swift in Sources */,
+				7075CE10229443BA002B3DD8 /* OrderItem.swift in Sources */,
 				AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */,
 				7075CE0722944184002B3DD8 /* RestaurantCategory.swift in Sources */,
 				7075CE0422944107002B3DD8 /* Restaurant.swift in Sources */,
