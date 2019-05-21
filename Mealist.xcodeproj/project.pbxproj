@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		07200BBFC02AB544BB3A5537 /* Pods_Mealist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CF5F9087B5F039C369E7D7 /* Pods_Mealist.framework */; };
+		7075CDE222943ED3002B3DD8 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D91A2293F734006A11EF /* SplashViewController.swift */; };
+		7075CDE322943ED3002B3DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2C2292EFAC00292682 /* AppDelegate.swift */; };
+		7075CDE422943ED3002B3DD8 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D91F2293F904006A11EF /* RoundedButton.swift */; };
+		7075CDE622943ED3002B3DD8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC04D9112292FBC0006A11EF /* MapKit.framework */; };
+		7075CDE722943ED3002B3DD8 /* Pods_Mealist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CF5F9087B5F039C369E7D7 /* Pods_Mealist.framework */; };
+		7075CDE922943ED3002B3DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA352292EFB800292682 /* LaunchScreen.storyboard */; };
+		7075CDEA22943ED3002B3DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA332292EFB800292682 /* Assets.xcassets */; };
+		7075CDEB22943ED3002B3DD8 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC04D9132293DE27006A11EF /* Pacifico.ttf */; };
+		7075CDEC22943ED3002B3DD8 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04D91B2293F734006A11EF /* SplashViewController.xib */; };
 		AC04D9122292FBC0006A11EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC04D9112292FBC0006A11EF /* MapKit.framework */; };
 		AC04D9142293DE28006A11EF /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC04D9132293DE27006A11EF /* Pacifico.ttf */; };
 		AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D91A2293F734006A11EF /* SplashViewController.swift */; };
@@ -34,6 +43,8 @@
 		2614EDB1E64546D292B3DA34 /* Pods_MealistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DD6EC033D0FC867DD1295E /* Pods-MealistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MealistTests/Pods-MealistTests.release.xcconfig"; sourceTree = "<group>"; };
 		48E9BCE34406085E8A6AAA77 /* Pods-MealistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealistTests/Pods-MealistTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7075CDF122943ED3002B3DD8 /* Mealist-mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mealist-mock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7075CDF222943ED3002B3DD8 /* Mealist copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Mealist copy-Info.plist"; path = "/Users/nemethbarna/Desktop/_drukka/_practice/mealist/Mealist copy-Info.plist"; sourceTree = "<absolute>"; };
 		AC04D9102292FB7A006A11EF /* Mealist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mealist.entitlements; sourceTree = "<group>"; };
 		AC04D9112292FBC0006A11EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AC04D9132293DE27006A11EF /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
@@ -54,6 +65,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7075CDE522943ED3002B3DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7075CDE622943ED3002B3DD8 /* MapKit.framework in Frameworks */,
+				7075CDE722943ED3002B3DD8 /* Pods_Mealist.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC51EA262292EFAC00292682 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -151,6 +171,7 @@
 				AC51EA2A2292EFAC00292682 /* Products */,
 				A1B994DF954AE4DA06277208 /* Pods */,
 				13AFFDC0B16F0478542B91B4 /* Frameworks */,
+				7075CDF222943ED3002B3DD8 /* Mealist copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +180,7 @@
 			children = (
 				AC51EA292292EFAC00292682 /* Mealist.app */,
 				AC51EA3D2292EFB800292682 /* MealistTests.xctest */,
+				7075CDF122943ED3002B3DD8 /* Mealist-mock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,6 +213,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7075CDDF22943ED3002B3DD8 /* Mealist-mock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7075CDEE22943ED3002B3DD8 /* Build configuration list for PBXNativeTarget "Mealist-mock" */;
+			buildPhases = (
+				7075CDE022943ED3002B3DD8 /* [CP] Check Pods Manifest.lock */,
+				7075CDE122943ED3002B3DD8 /* Sources */,
+				7075CDE522943ED3002B3DD8 /* Frameworks */,
+				7075CDE822943ED3002B3DD8 /* Resources */,
+				7075CDED22943ED3002B3DD8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mealist-mock";
+			productName = Mealist;
+			productReference = 7075CDF122943ED3002B3DD8 /* Mealist-mock.app */;
+			productType = "com.apple.product-type.application";
+		};
 		AC51EA282292EFAC00292682 /* Mealist */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC51EA462292EFB800292682 /* Build configuration list for PBXNativeTarget "Mealist" */;
@@ -273,12 +314,24 @@
 			projectRoot = "";
 			targets = (
 				AC51EA282292EFAC00292682 /* Mealist */,
+				7075CDDF22943ED3002B3DD8 /* Mealist-mock */,
 				AC51EA3C2292EFB800292682 /* MealistTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7075CDE822943ED3002B3DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7075CDE922943ED3002B3DD8 /* LaunchScreen.storyboard in Resources */,
+				7075CDEA22943ED3002B3DD8 /* Assets.xcassets in Resources */,
+				7075CDEB22943ED3002B3DD8 /* Pacifico.ttf in Resources */,
+				7075CDEC22943ED3002B3DD8 /* SplashViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC51EA272292EFAC00292682 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,9 +431,75 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7075CDE022943ED3002B3DD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mealist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7075CDED22943ED3002B3DD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mealist/Pods-Mealist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Locksmith/Locksmith.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Locksmith.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mealist/Pods-Mealist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7075CDE122943ED3002B3DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7075CDE222943ED3002B3DD8 /* SplashViewController.swift in Sources */,
+				7075CDE322943ED3002B3DD8 /* AppDelegate.swift in Sources */,
+				7075CDE422943ED3002B3DD8 /* RoundedButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC51EA252292EFAC00292682 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -421,6 +540,49 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7075CDEF22943ED3002B3DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8FB2FF12E55C4B26C7308B /* Pods-Mealist.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mealist/Mealist.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NKATU7J47;
+				INFOPLIST_FILE = "Mealist copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drukkadigitals.Mealist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG MOCK";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7075CDF022943ED3002B3DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0EB76C184DF4E82899E9DF /* Pods-Mealist.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mealist/Mealist.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NKATU7J47;
+				INFOPLIST_FILE = "Mealist copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drukkadigitals.Mealist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		AC51EA442292EFB800292682 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -626,6 +788,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7075CDEE22943ED3002B3DD8 /* Build configuration list for PBXNativeTarget "Mealist-mock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7075CDEF22943ED3002B3DD8 /* Debug */,
+				7075CDF022943ED3002B3DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AC51EA242292EFAC00292682 /* Build configuration list for PBXProject "Mealist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
