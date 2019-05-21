@@ -12,6 +12,7 @@
 		AC04D9142293DE28006A11EF /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC04D9132293DE27006A11EF /* Pacifico.ttf */; };
 		AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D91A2293F734006A11EF /* SplashViewController.swift */; };
 		AC04D91D2293F734006A11EF /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04D91B2293F734006A11EF /* SplashViewController.xib */; };
+		AC04D9202293F904006A11EF /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D91F2293F904006A11EF /* RoundedButton.swift */; };
 		AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2C2292EFAC00292682 /* AppDelegate.swift */; };
 		AC51EA2F2292EFAC00292682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2E2292EFAC00292682 /* ViewController.swift */; };
 		AC51EA322292EFAC00292682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA302292EFAC00292682 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		AC04D9132293DE27006A11EF /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
 		AC04D91A2293F734006A11EF /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		AC04D91B2293F734006A11EF /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		AC04D91F2293F904006A11EF /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		AC51EA292292EFAC00292682 /* Mealist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC51EA2C2292EFAC00292682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC51EA2E2292EFAC00292682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				AC04D9192293F6E2006A11EF /* Xibs */,
+				AC04D91E2293F83D006A11EF /* UIElements */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,6 +137,14 @@
 				AC04D91B2293F734006A11EF /* SplashViewController.xib */,
 			);
 			path = Xibs;
+			sourceTree = "<group>";
+		};
+		AC04D91E2293F83D006A11EF /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				AC04D91F2293F904006A11EF /* RoundedButton.swift */,
+			);
+			path = UIElements;
 			sourceTree = "<group>";
 		};
 		AC51EA202292EFAC00292682 = {
@@ -384,6 +395,7 @@
 				AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */,
 				AC51EA2F2292EFAC00292682 /* ViewController.swift in Sources */,
 				AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */,
+				AC04D9202293F904006A11EF /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
