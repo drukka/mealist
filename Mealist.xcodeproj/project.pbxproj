@@ -10,6 +10,8 @@
 		07200BBFC02AB544BB3A5537 /* Pods_Mealist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CF5F9087B5F039C369E7D7 /* Pods_Mealist.framework */; };
 		AC04D9122292FBC0006A11EF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC04D9112292FBC0006A11EF /* MapKit.framework */; };
 		AC04D9142293DE28006A11EF /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC04D9132293DE27006A11EF /* Pacifico.ttf */; };
+		AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D91A2293F734006A11EF /* SplashViewController.swift */; };
+		AC04D91D2293F734006A11EF /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04D91B2293F734006A11EF /* SplashViewController.xib */; };
 		AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2C2292EFAC00292682 /* AppDelegate.swift */; };
 		AC51EA2F2292EFAC00292682 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2E2292EFAC00292682 /* ViewController.swift */; };
 		AC51EA322292EFAC00292682 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA302292EFAC00292682 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 		AC04D9102292FB7A006A11EF /* Mealist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mealist.entitlements; sourceTree = "<group>"; };
 		AC04D9112292FBC0006A11EF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AC04D9132293DE27006A11EF /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		AC04D91A2293F734006A11EF /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		AC04D91B2293F734006A11EF /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		AC51EA292292EFAC00292682 /* Mealist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC51EA2C2292EFAC00292682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC51EA2E2292EFAC00292682 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,37 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		AC04D9162293F683006A11EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC04D9172293F696006A11EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC04D9192293F6E2006A11EF /* Xibs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC04D9182293F6A2006A11EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC04D91A2293F734006A11EF /* SplashViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AC04D9192293F6E2006A11EF /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				AC04D91B2293F734006A11EF /* SplashViewController.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
 		AC51EA202292EFAC00292682 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +159,9 @@
 		AC51EA2B2292EFAC00292682 /* Mealist */ = {
 			isa = PBXGroup;
 			children = (
+				AC04D9162293F683006A11EF /* Models */,
+				AC04D9172293F696006A11EF /* Views */,
+				AC04D9182293F6A2006A11EF /* Controllers */,
 				AC04D9102292FB7A006A11EF /* Mealist.entitlements */,
 				AC51EA2C2292EFAC00292682 /* AppDelegate.swift */,
 				AC51EA2E2292EFAC00292682 /* ViewController.swift */,
@@ -243,6 +281,7 @@
 				AC51EA372292EFB800292682 /* LaunchScreen.storyboard in Resources */,
 				AC51EA342292EFB800292682 /* Assets.xcassets in Resources */,
 				AC04D9142293DE28006A11EF /* Pacifico.ttf in Resources */,
+				AC04D91D2293F734006A11EF /* SplashViewController.xib in Resources */,
 				AC51EA322292EFAC00292682 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */,
 				AC51EA2F2292EFAC00292682 /* ViewController.swift in Sources */,
 				AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */,
 			);
