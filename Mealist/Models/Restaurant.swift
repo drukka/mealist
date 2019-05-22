@@ -15,7 +15,7 @@ struct Restaurant: Codable {
     let id: Int
     let name: String
     let latitude: Double
-    let longitued: Double
+    let longitude: Double
     let address: String
     let coverPhotos: [String]
     let category: RestaurantCategory

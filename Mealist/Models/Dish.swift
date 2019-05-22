@@ -16,5 +16,5 @@ struct Dish: Codable {
     let name: String
     let description: String
     let image: String?
-    let price: String
+    let price: Double
 }

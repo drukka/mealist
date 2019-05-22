@@ -18,7 +18,7 @@ protocol Networking {
     func getCategories(authenticationToken: String) -> Promise<[RestaurantCategory]>
     func getMenu(for restaurant: Restaurant, authenticationToken: String) -> Promise<[Dish]>
     func getReviews(for restaurant: Restaurant, authenticationToken: String) -> Promise<[Review]>
-    func sendReview(for restaurant: Restaurant, stars: Int, reviewText: String) -> Promise<Void?>
+    func sendReview(for restaurant: Restaurant, stars: Int, reviewText: String, authenticationToken: String) -> Promise<Void?>
     func getUserData(authenticationToken: String) -> Promise<UserData>
     func editUserData(_ userData: UserData, authenticationToken: String) -> Promise<Void?>
     func editDeliveryDetails(_ deliveryDetails: DeliveryDetails, authenticationToken: String) -> Promise<Void?>
