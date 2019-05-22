@@ -19,6 +19,8 @@
 		AC04D92D22944559006A11EF /* SF-Compact-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC04D92C22944559006A11EF /* SF-Compact-Text-Regular.otf */; };
 		AC04D932229551BC006A11EF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D930229551BC006A11EF /* SignInViewController.swift */; };
 		AC04D933229551BC006A11EF /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04D931229551BC006A11EF /* SignInViewController.xib */; };
+		AC04D9362295882A006A11EF /* ForgottenPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D9342295882A006A11EF /* ForgottenPasswordViewController.swift */; };
+		AC04D9372295882A006A11EF /* ForgottenPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04D9352295882A006A11EF /* ForgottenPasswordViewController.xib */; };
 		AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2C2292EFAC00292682 /* AppDelegate.swift */; };
 		AC51EA342292EFB800292682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA332292EFB800292682 /* Assets.xcassets */; };
 		AC51EA372292EFB800292682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA352292EFB800292682 /* LaunchScreen.storyboard */; };
@@ -52,6 +54,8 @@
 		AC04D92C22944559006A11EF /* SF-Compact-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Regular.otf"; sourceTree = "<group>"; };
 		AC04D930229551BC006A11EF /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		AC04D931229551BC006A11EF /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		AC04D9342295882A006A11EF /* ForgottenPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgottenPasswordViewController.swift; sourceTree = "<group>"; };
+		AC04D9352295882A006A11EF /* ForgottenPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgottenPasswordViewController.xib; sourceTree = "<group>"; };
 		AC51EA292292EFAC00292682 /* Mealist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC51EA2C2292EFAC00292682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC51EA332292EFB800292682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 				AC04D91A2293F734006A11EF /* SplashViewController.swift */,
 				AC04D92622941E09006A11EF /* SignUpViewController.swift */,
 				AC04D930229551BC006A11EF /* SignInViewController.swift */,
+				AC04D9342295882A006A11EF /* ForgottenPasswordViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 				AC04D91B2293F734006A11EF /* SplashViewController.xib */,
 				AC04D92722941E09006A11EF /* SignUpViewController.xib */,
 				AC04D931229551BC006A11EF /* SignInViewController.xib */,
+				AC04D9352295882A006A11EF /* ForgottenPasswordViewController.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -307,6 +313,7 @@
 				AC04D9142293DE28006A11EF /* Pacifico.ttf in Resources */,
 				AC04D933229551BC006A11EF /* SignInViewController.xib in Resources */,
 				AC04D92D22944559006A11EF /* SF-Compact-Text-Regular.otf in Resources */,
+				AC04D9372295882A006A11EF /* ForgottenPasswordViewController.xib in Resources */,
 				AC04D91D2293F734006A11EF /* SplashViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC04D91C2293F734006A11EF /* SplashViewController.swift in Sources */,
+				AC04D9362295882A006A11EF /* ForgottenPasswordViewController.swift in Sources */,
 				AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */,
 				AC04D932229551BC006A11EF /* SignInViewController.swift in Sources */,
 				AC04D92822941E09006A11EF /* SignUpViewController.swift in Sources */,
