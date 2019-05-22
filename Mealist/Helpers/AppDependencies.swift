@@ -24,7 +24,7 @@ final class AppDependencies {
             #if MOCK
                 return FakeAPIClient()
             #else
-                return APIClient()
+                return FakeAPIClient()
             #endif
         })
     }
