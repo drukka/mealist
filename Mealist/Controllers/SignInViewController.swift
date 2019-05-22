@@ -61,7 +61,8 @@ class SignInViewController: UIViewController {
     }
 
     private func navigateToForgottenPasswordScreen() {
-        present(ForgottenPasswordViewController(), animated: true)
+        let navigationController = TransparentNavigationController(rootViewController: ForgottenPasswordViewController())
+        present(navigationController, animated: true)
     }
 
     // MARK: - Control events

@@ -24,6 +24,6 @@ class ForgottenPasswordViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
 }

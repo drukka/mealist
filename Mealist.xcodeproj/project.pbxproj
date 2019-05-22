@@ -21,6 +21,7 @@
 		AC04D933229551BC006A11EF /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04D931229551BC006A11EF /* SignInViewController.xib */; };
 		AC04D9362295882A006A11EF /* ForgottenPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D9342295882A006A11EF /* ForgottenPasswordViewController.swift */; };
 		AC04D9372295882A006A11EF /* ForgottenPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04D9352295882A006A11EF /* ForgottenPasswordViewController.xib */; };
+		AC04D93922958CE0006A11EF /* TransparentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D93822958CE0006A11EF /* TransparentNavigationController.swift */; };
 		AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2C2292EFAC00292682 /* AppDelegate.swift */; };
 		AC51EA342292EFB800292682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA332292EFB800292682 /* Assets.xcassets */; };
 		AC51EA372292EFB800292682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA352292EFB800292682 /* LaunchScreen.storyboard */; };
@@ -56,6 +57,7 @@
 		AC04D931229551BC006A11EF /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		AC04D9342295882A006A11EF /* ForgottenPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgottenPasswordViewController.swift; sourceTree = "<group>"; };
 		AC04D9352295882A006A11EF /* ForgottenPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgottenPasswordViewController.xib; sourceTree = "<group>"; };
+		AC04D93822958CE0006A11EF /* TransparentNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentNavigationController.swift; sourceTree = "<group>"; };
 		AC51EA292292EFAC00292682 /* Mealist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC51EA2C2292EFAC00292682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC51EA332292EFB800292682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 			children = (
 				AC04D91F2293F904006A11EF /* RoundedButton.swift */,
 				AC04D92A22944049006A11EF /* RoundedTextField.swift */,
+				AC04D93822958CE0006A11EF /* TransparentNavigationController.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				AC04D932229551BC006A11EF /* SignInViewController.swift in Sources */,
 				AC04D92822941E09006A11EF /* SignUpViewController.swift in Sources */,
 				AC04D9202293F904006A11EF /* RoundedButton.swift in Sources */,
+				AC04D93922958CE0006A11EF /* TransparentNavigationController.swift in Sources */,
 				AC04D92B2294404A006A11EF /* RoundedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
