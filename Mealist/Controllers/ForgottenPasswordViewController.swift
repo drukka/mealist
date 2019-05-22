@@ -10,6 +10,10 @@ import UIKit
 
 class ForgottenPasswordViewController: UIViewController {
 
+    // MARK: - Properties
+
+    @IBOutlet weak var emailTextField: RoundedTextField!
+    
     // MARK: - Initialization
 
     init() {
@@ -34,6 +38,9 @@ class ForgottenPasswordViewController: UIViewController {
     }
 
     // MARK: - Control events
+
+    @IBAction func resetTapped(_ sender: RoundedButton) {
+    }
 
     @objc func cancelTapped() {
         dismiss(animated: true)
