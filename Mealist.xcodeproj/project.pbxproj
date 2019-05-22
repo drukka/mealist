@@ -15,7 +15,7 @@
 		AC04D9202293F904006A11EF /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D91F2293F904006A11EF /* RoundedButton.swift */; };
 		AC04D92822941E09006A11EF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D92622941E09006A11EF /* SignUpViewController.swift */; };
 		AC04D92922941E09006A11EF /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04D92722941E09006A11EF /* SignUpViewController.xib */; };
-		AC04D92B2294404A006A11EF /* RoundedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D92A22944049006A11EF /* RoundedTextView.swift */; };
+		AC04D92B2294404A006A11EF /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D92A22944049006A11EF /* RoundedTextField.swift */; };
 		AC04D92D22944559006A11EF /* SF-Compact-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC04D92C22944559006A11EF /* SF-Compact-Text-Regular.otf */; };
 		AC04D932229551BC006A11EF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D930229551BC006A11EF /* SignInViewController.swift */; };
 		AC04D933229551BC006A11EF /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04D931229551BC006A11EF /* SignInViewController.xib */; };
@@ -48,7 +48,7 @@
 		AC04D91F2293F904006A11EF /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		AC04D92622941E09006A11EF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AC04D92722941E09006A11EF /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
-		AC04D92A22944049006A11EF /* RoundedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextView.swift; sourceTree = "<group>"; };
+		AC04D92A22944049006A11EF /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
 		AC04D92C22944559006A11EF /* SF-Compact-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Regular.otf"; sourceTree = "<group>"; };
 		AC04D930229551BC006A11EF /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		AC04D931229551BC006A11EF /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				AC04D91F2293F904006A11EF /* RoundedButton.swift */,
-				AC04D92A22944049006A11EF /* RoundedTextView.swift */,
+				AC04D92A22944049006A11EF /* RoundedTextField.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -411,7 +411,7 @@
 				AC04D932229551BC006A11EF /* SignInViewController.swift in Sources */,
 				AC04D92822941E09006A11EF /* SignUpViewController.swift in Sources */,
 				AC04D9202293F904006A11EF /* RoundedButton.swift in Sources */,
-				AC04D92B2294404A006A11EF /* RoundedTextView.swift in Sources */,
+				AC04D92B2294404A006A11EF /* RoundedTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
