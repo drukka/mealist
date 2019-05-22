@@ -15,6 +15,8 @@
 		AC04D9202293F904006A11EF /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D91F2293F904006A11EF /* RoundedButton.swift */; };
 		AC04D92822941E09006A11EF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D92622941E09006A11EF /* SignUpViewController.swift */; };
 		AC04D92922941E09006A11EF /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC04D92722941E09006A11EF /* SignUpViewController.xib */; };
+		AC04D92B2294404A006A11EF /* RoundedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC04D92A22944049006A11EF /* RoundedTextView.swift */; };
+		AC04D92D22944559006A11EF /* SF-Compact-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC04D92C22944559006A11EF /* SF-Compact-Text-Regular.otf */; };
 		AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51EA2C2292EFAC00292682 /* AppDelegate.swift */; };
 		AC51EA342292EFB800292682 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA332292EFB800292682 /* Assets.xcassets */; };
 		AC51EA372292EFB800292682 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC51EA352292EFB800292682 /* LaunchScreen.storyboard */; };
@@ -44,6 +46,8 @@
 		AC04D91F2293F904006A11EF /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		AC04D92622941E09006A11EF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		AC04D92722941E09006A11EF /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		AC04D92A22944049006A11EF /* RoundedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextView.swift; sourceTree = "<group>"; };
+		AC04D92C22944559006A11EF /* SF-Compact-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Compact-Text-Regular.otf"; sourceTree = "<group>"; };
 		AC51EA292292EFAC00292682 /* Mealist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC51EA2C2292EFAC00292682 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC51EA332292EFB800292682 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				AC04D9132293DE27006A11EF /* Pacifico.ttf */,
+				AC04D92C22944559006A11EF /* SF-Compact-Text-Regular.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				AC04D91F2293F904006A11EF /* RoundedButton.swift */,
+				AC04D92A22944049006A11EF /* RoundedTextView.swift */,
 			);
 			path = UIElements;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 				AC51EA372292EFB800292682 /* LaunchScreen.storyboard in Resources */,
 				AC51EA342292EFB800292682 /* Assets.xcassets in Resources */,
 				AC04D9142293DE28006A11EF /* Pacifico.ttf in Resources */,
+				AC04D92D22944559006A11EF /* SF-Compact-Text-Regular.otf in Resources */,
 				AC04D91D2293F734006A11EF /* SplashViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +403,7 @@
 				AC51EA2D2292EFAC00292682 /* AppDelegate.swift in Sources */,
 				AC04D92822941E09006A11EF /* SignUpViewController.swift in Sources */,
 				AC04D9202293F904006A11EF /* RoundedButton.swift in Sources */,
+				AC04D92B2294404A006A11EF /* RoundedTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

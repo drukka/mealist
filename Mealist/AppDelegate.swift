@@ -27,7 +27,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func setUpRootViewController() {
         let window = UIWindow(frame: UIScreen.main.bounds)
         self.window = window
-        window.rootViewController = SplashViewController()
+        let navigationController = UINavigationController(rootViewController: SplashViewController())
+        navigationController.navigationBar.backgroundColor = .clear
+        navigationController.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController.navigationBar.shadowImage = UIImage()
+        window.rootViewController = navigationController
         window.makeKeyAndVisible()
     }
 }

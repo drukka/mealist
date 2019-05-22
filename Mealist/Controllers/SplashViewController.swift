@@ -30,6 +30,7 @@ class SplashViewController: UIViewController {
     // MARK: - Control events
 
     @IBAction func signUpTapped(_ sender: UIButton) {
+        navigationController?.pushViewController(SignUpViewController(), animated: true)
     }
 
     @IBAction func logInTapped(_ sender: UIButton) {
