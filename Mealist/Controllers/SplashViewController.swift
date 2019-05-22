@@ -27,11 +27,23 @@ class SplashViewController: UIViewController {
 
     }
 
+    // MARK: - Private methods
+
+    private func navigateToSignUpScreen() {
+        navigationController?.pushViewController(SignUpViewController(), animated: true)
+    }
+
+    private func navigateToSignInScreen() {
+        navigationController?.pushViewController(SignInViewController(), animated: true)
+    }
+
     // MARK: - Control events
 
     @IBAction func signUpTapped(_ sender: UIButton) {
+        navigateToSignUpScreen()
     }
 
     @IBAction func logInTapped(_ sender: UIButton) {
+        navigateToSignInScreen()
     }
 }

@@ -14,6 +14,12 @@ class RoundedButton: UIButton {
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        setUpButton()
+    }
+
+    // MARK: - Private methods
+
+    private func setUpButton() {
         layer.cornerRadius = frame.height / 2
         layer.masksToBounds = true
     }

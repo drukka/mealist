@@ -24,6 +24,7 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
+		<string>SF-Compact-Text-Regular.otf</string>
 		<string>Pacifico.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>

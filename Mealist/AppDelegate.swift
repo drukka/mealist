@@ -30,9 +30,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Private methods
 
     private func setUpRootViewController() {
+        guard let navigationBarColor = UIColor(named: "Trendy Pink") else { return }
+        guard let navigationBarTitleColor = UIColor(named: "Ebony Clay") else { return }
+        guard let navigationBarFont = UIFont(name: "SFCompactText-Regular", size: 14) else { return }
         let window = UIWindow(frame: UIScreen.main.bounds)
         self.window = window
-        window.rootViewController = SplashViewController()
+        let navigationController = UINavigationController(rootViewController: SplashViewController())
+        navigationController.navigationBar.backgroundColor = .clear
+        navigationController.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController.navigationBar.shadowImage = UIImage()
+        navigationController.navigationBar.tintColor = navigationBarColor
+        navigationController.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: navigationBarTitleColor, NSAttributedString.Key.font: navigationBarFont]
+        window.rootViewController = navigationController
         window.makeKeyAndVisible()
     }
     

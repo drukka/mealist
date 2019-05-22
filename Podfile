@@ -7,6 +7,7 @@ def shared_pods
     pod 'Kingfisher'
     pod 'SkeletonView'
     pod 'NVActivityIndicatorView'
+    pod 'SwiftyAttributes'
 end
 
 target 'Mealist' do
