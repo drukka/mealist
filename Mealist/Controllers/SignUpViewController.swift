@@ -60,6 +60,7 @@ class SignUpViewController: UIViewController {
 // MARK: - UITextFieldDelegate
 
 extension SignUpViewController: UITextFieldDelegate {
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         switch textField {
             case emailTextField:

@@ -30,11 +30,38 @@ class SignInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpNavigationBarTitle()
+        assignDelegates()
+    }
 
+    // MARK: - Private methods
+
+    private func setUpNavigationBarTitle() {
+        title = "Log in"
+    }
+
+    private func assignDelegates() {
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
     }
 
     // MARK: - Control events
 
     @IBAction func signInTapped(_ sender: RoundedButton) {
+    }
+}
+
+// MARK: - UITextFieldDelegate
+
+extension SignInViewController: UITextFieldDelegate {
+
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        switch textField {
+            case emailTextField:
+                passwordTextField.becomeFirstResponder()
+            default:
+                textField.resignFirstResponder()
+        }
+        return true
     }
 }

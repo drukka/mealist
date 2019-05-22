@@ -18,7 +18,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignInViewController" customModule="Mealist" customModuleProvider="target">
             <connections>
+                <outlet property="emailTextField" destination="Bku-Gz-a0i" id="ICq-Jk-qmP"/>
                 <outlet property="forgottenPasswordLabel" destination="LJH-rt-8H7" id="osr-bC-wU2"/>
+                <outlet property="passwordTextField" destination="Scp-U2-E3Y" id="p3C-Qh-hCc"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -38,14 +40,14 @@
                             </constraints>
                             <color key="textColor" name="Ebony Clay"/>
                             <fontDescription key="fontDescription" name="SFCompactText-Regular" family="SF Compact Text" pointSize="17"/>
-                            <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Scp-U2-E3Y" customClass="RoundedTextField" customModule="Mealist" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="49" width="350" height="33"/>
                             <color key="backgroundColor" name="Catskill White"/>
                             <color key="textColor" name="Ebony Clay"/>
                             <fontDescription key="fontDescription" name="SFCompactText-Regular" family="SF Compact Text" pointSize="17"/>
-                            <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
                         </textField>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uPh-mu-MHH" customClass="RoundedButton" customModule="Mealist" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="98" width="350" height="33"/>
