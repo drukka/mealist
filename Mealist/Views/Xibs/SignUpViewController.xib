@@ -60,6 +60,9 @@
                             <state key="normal" title="SIGN UP">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="signUpTapped:" destination="-1" eventType="touchUpInside" id="BxI-3P-hg9"/>
+                            </connections>
                         </button>
                     </subviews>
                 </stackView>

@@ -45,6 +45,16 @@ class SignUpViewController: UIViewController {
         passwordTextField.delegate = self
         passwordConfirmationTextField.delegate = self
     }
+
+    // MARK: - Control events
+
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+
+    @IBAction func signUpTapped(_ sender: RoundedButton) {
+        view.endEditing(true)
+    }
 }
 
 // MARK: - UITextFieldDelegate

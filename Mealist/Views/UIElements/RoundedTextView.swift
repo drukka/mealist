@@ -21,7 +21,8 @@ class RoundedTextField: UITextField {
 
     private func setUpTextField() {
         guard let placeholderColor = UIColor(named: "Ebony Clay") else { return }
-        attributedPlaceholder = NSAttributedString(string: placeholder ?? "", attributes: [NSAttributedString.Key.foregroundColor: placeholderColor])
+        guard let placeholderFont = UIFont(name: "SFCompactText-Regular", size: 14) else { return }
+        attributedPlaceholder = NSAttributedString(string: placeholder ?? "", attributes: [NSAttributedString.Key.foregroundColor: placeholderColor, NSAttributedString.Key.font: placeholderFont])
         layer.cornerRadius = frame.height / 2
         layer.masksToBounds = true
     }
