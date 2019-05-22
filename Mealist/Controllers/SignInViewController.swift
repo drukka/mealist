@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyAttributes
 
 class SignInViewController: UIViewController {
 
@@ -14,8 +15,9 @@ class SignInViewController: UIViewController {
 
     @IBOutlet weak var emailTextField: RoundedTextField!
     @IBOutlet weak var passwordTextField: RoundedTextField!
-    @IBOutlet weak var forgottenPasswordLabel: UILabel!
-
+    @IBOutlet weak var forgottenPasswordTextView: UITextView!
+    
+    
     // MARK: - Initialization
 
     init() {
@@ -32,6 +34,7 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
         setUpNavigationBarTitle()
         assignDelegates()
+        setUpForgottenPasswordTextView()
     }
 
     // MARK: - Private methods
@@ -43,11 +46,28 @@ class SignInViewController: UIViewController {
     private func assignDelegates() {
         emailTextField.delegate = self
         passwordTextField.delegate = self
+        forgottenPasswordTextView.delegate = self
+    }
+
+    private func setUpForgottenPasswordTextView() {
+        guard let textColor = UIColor(named: "Ebony Clay") else { return }
+        guard let textFont = UIFont(name: "SFCompactText-Regular", size: 14) else { return }
+        let paragraphyStyle = NSMutableParagraphStyle()
+        paragraphyStyle.alignment = .center
+        let attributedText = "Forgot password? ".withTextColor(textColor) +
+                             "Tap here".withAttribute(.link(URL(string: "forgottenPassword")!)) +
+                             ".".withTextColor(textColor)
+        forgottenPasswordTextView.attributedText = attributedText.withAttributes([.font(textFont), .paragraphStyle(paragraphyStyle)])
     }
 
     // MARK: - Control events
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+
     @IBAction func signInTapped(_ sender: RoundedButton) {
+        view.endEditing(true)
     }
 }
 
@@ -63,5 +83,16 @@ extension SignInViewController: UITextFieldDelegate {
                 textField.resignFirstResponder()
         }
         return true
+    }
+}
+
+// MARK: - UITextViewDelegate
+
+extension SignInViewController: UITextViewDelegate {
+    func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {
+        if URL.absoluteString == "forgottenPassword" {
+            // TO DO: Navigate to ForgottenPasswordViewController
+        }
+        return false
     }
 }
