@@ -24,6 +24,18 @@ class ForgottenPasswordViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setUpNavigationBarItem()
+    }
+
+    // MARK: - Private methods
+
+    private func setUpNavigationBarItem() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(cancelTapped))
+    }
+
+    // MARK: - Control events
+
+    @objc func cancelTapped() {
+        dismiss(animated: true)
     }
 }
