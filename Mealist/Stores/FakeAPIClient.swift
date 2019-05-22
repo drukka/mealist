@@ -42,6 +42,7 @@ class FakeAPIClient: Networking {
         if email == self.mockEmail && password == self.mockPassword {
             return Promise.value(AuthenticationResponse(authenticationToken: self.mockAuthenticationToken, userData: self.mockUser))
         }
+        return Promise(error: NetworkingError.serviceError(.unauthorized))
     }
     
     func requestForgottenPasswordEmail(to email: String) -> Promise<Void?> {
