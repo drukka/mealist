@@ -60,6 +60,10 @@ class SignInViewController: UIViewController {
         forgottenPasswordTextView.attributedText = attributedText.withAttributes([.font(textFont), .paragraphStyle(paragraphyStyle)])
     }
 
+    private func navigateToForgottenPasswordScreen() {
+        present(ForgottenPasswordViewController(), animated: true)
+    }
+
     // MARK: - Control events
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -91,7 +95,7 @@ extension SignInViewController: UITextFieldDelegate {
 extension SignInViewController: UITextViewDelegate {
     func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {
         if URL.absoluteString == "forgottenPassword" {
-            // TO DO: Navigate to ForgottenPasswordViewController
+            navigateToForgottenPasswordScreen()
         }
         return false
     }
