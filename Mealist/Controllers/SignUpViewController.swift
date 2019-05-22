@@ -10,6 +10,12 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+    // MARK: - Properties
+
+    @IBOutlet weak var emailTextField: RoundedTextField!
+    @IBOutlet weak var passwordTextField: RoundedTextField!
+    @IBOutlet weak var passwordConfirmationTextField: RoundedTextField!
+
     // MARK: - Initialization
 
     init() {
@@ -25,11 +31,34 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpNavigationBarTitle()
+        assignDelegates()
     }
 
     // MARK: - Private methods
 
     private func setUpNavigationBarTitle() {
         title = "Sign up"
+    }
+
+    private func assignDelegates() {
+        emailTextField.delegate = self
+        passwordTextField.delegate = self
+        passwordConfirmationTextField.delegate = self
+    }
+}
+
+// MARK: - UITextFieldDelegate
+
+extension SignUpViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        switch textField {
+            case emailTextField:
+                passwordTextField.becomeFirstResponder()
+            case passwordTextField:
+                passwordConfirmationTextField.becomeFirstResponder()
+            default:
+                textField.resignFirstResponder()
+        }
+        return true
     }
 }

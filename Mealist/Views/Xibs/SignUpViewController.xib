@@ -18,6 +18,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUpViewController" customModule="Mealist" customModuleProvider="target">
             <connections>
+                <outlet property="emailTextField" destination="WoO-fF-Yg1" id="hQl-Xd-etN"/>
+                <outlet property="passwordConfirmationTextField" destination="cVh-Oz-AaL" id="O5K-cD-Gvb"/>
+                <outlet property="passwordTextField" destination="ouI-WS-KYC" id="uK5-Zr-KC3"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -34,21 +37,21 @@
                             <color key="backgroundColor" name="Catskill White"/>
                             <color key="textColor" name="Ebony Clay"/>
                             <fontDescription key="fontDescription" name="SFCompactText-Regular" family="SF Compact Text" pointSize="17"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ouI-WS-KYC" customClass="RoundedTextField" customModule="Mealist" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="49" width="286" height="33"/>
                             <color key="backgroundColor" name="Catskill White"/>
                             <color key="textColor" name="Ebony Clay"/>
                             <fontDescription key="fontDescription" name="SFCompactText-Regular" family="SF Compact Text" pointSize="17"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="next" secureTextEntry="YES"/>
                         </textField>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cVh-Oz-AaL" customClass="RoundedTextField" customModule="Mealist" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="98" width="286" height="33"/>
                             <color key="backgroundColor" name="Catskill White"/>
                             <color key="textColor" name="Ebony Clay"/>
                             <fontDescription key="fontDescription" name="SFCompactText-Regular" family="SF Compact Text" pointSize="17"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
                         </textField>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aK6-H6-8CE" customClass="RoundedButton" customModule="Mealist" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="147" width="286" height="33"/>
