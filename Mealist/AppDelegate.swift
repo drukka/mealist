@@ -31,6 +31,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         navigationController.navigationBar.backgroundColor = .clear
         navigationController.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController.navigationBar.shadowImage = UIImage()
+        navigationController.navigationBar.tintColor = UIColor(named: "Trendy Pink")
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
     }

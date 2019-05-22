@@ -19,9 +19,17 @@ class SignUpViewController: UIViewController {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+
+    // MARK: - View life cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpNavigationBarTitle()
+    }
 
+    // MARK: - Private methods
+
+    private func setUpNavigationBarTitle() {
+        title = "Sign up"
     }
 }
