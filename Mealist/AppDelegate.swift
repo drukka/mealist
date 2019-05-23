@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Swinject
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,10 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Properties
 
     var window: UIWindow?
+    static let shared: AppDelegate = UIApplication.shared.delegate as! AppDelegate
+    let appContainer: Container = Container()
+    private let appDependencies: AppDependencies = AppDependencies()
 
     // MARK: - Application life cycle
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        appDependencies.setup(with: self.appContainer)
         setUpRootViewController()
         return true
     }
@@ -31,5 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.rootViewController = navigationController
         window.makeKeyAndVisible()
     }
+    
+    
 }
 
